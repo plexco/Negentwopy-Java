@@ -1,0 +1,2 @@
+execute if score @s dir matches 6 if block ~1 ~ ~-1 black_concrete run scoreboard players set @s dir 7
+execute if score @s dir matches 7 if block ~-1 ~ ~1 black_concrete run scoreboard players set @s dir 6

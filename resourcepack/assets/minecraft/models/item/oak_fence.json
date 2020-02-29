@@ -1,0 +1,19 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/oak_fence"
+	},
+	"overrides": [
+		{ "predicate": {"custom_model_data":1}, "model": "item/piece/arrow" },
+		{ "predicate": {"custom_model_data":2}, "model": "item/piece/house" },
+		{ "predicate": {"custom_model_data":3}, "model": "item/piece/horizontal" },
+		{ "predicate": {"custom_model_data":4}, "model": "item/piece/vertical" },
+		{ "predicate": {"custom_model_data":5}, "model": "item/piece/lefty" },
+		{ "predicate": {"custom_model_data":6}, "model": "item/piece/righty" },
+		{ "predicate": {"custom_model_data":7}, "model": "item/piece/leftd" },
+		{ "predicate": {"custom_model_data":8}, "model": "item/piece/rightd" },
+		{ "predicate": {"custom_model_data":9}, "model": "item/piece/circle" },
+		
+		{ "predicate": {"custom_model_data":99}, "model": "item/piece/hidden" }
+	]
+}

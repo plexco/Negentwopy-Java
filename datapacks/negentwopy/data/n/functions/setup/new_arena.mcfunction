@@ -1,0 +1,2 @@
+setblock ~-5 ~-4 ~-5 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:0b,seed:0L,author:"Plagiatus",rotation:"NONE",posX:0,mode:"LOAD",posY:0,sizeX:11,posZ:0,integrity:1.0f,showair:0b,name:"n:arena",sizeY:6,sizeZ:11,showboundingbox:1b}
+setblock ~-4 ~-4 ~-5 minecraft:redstone_block

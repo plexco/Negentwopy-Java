@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "place_block": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:oak_fence",
+                "item":{
+                    "nbt":"{type:'circ'}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "n:place_block/circ"
+    }
+}
