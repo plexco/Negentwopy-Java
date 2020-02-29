@@ -5,12 +5,12 @@
             "conditions": {
                 "block": "minecraft:oak_fence",
                 "item":{
-                    "nbt":"{type:'circ'}"
+                    "nbt":"{type:'stop'}"
                 }
             }
         }
     },
     "rewards": {
-        "function": "n:place_block/circ"
+        "function": "n:place_block/stop"
     }
 }

@@ -6,7 +6,7 @@ execute as @s[tag=rl] run function n:game/pieces/rl
 execute as @s[tag=rr] run function n:game/pieces/rr
 execute as @s[tag=dl] run function n:game/pieces/dl
 execute as @s[tag=dr] run function n:game/pieces/dr
-execute as @s[tag=circ] run function n:game/pieces/circ
+execute as @s[tag=stop] run function n:game/pieces/stop
 
 
 function n:game/pieces/move_one
