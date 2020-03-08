@@ -3,4 +3,5 @@
 execute if score @s x matches 0.. run function n:setup/move_player
 execute unless score @s x matches 0.. run function n:setup/new
 
-function n:game/load
+# function n:game/load
+function n:menu/main/goto

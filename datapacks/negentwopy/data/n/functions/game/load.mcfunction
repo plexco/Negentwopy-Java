@@ -1,5 +1,5 @@
 tag @s remove restart
-execute if score @s level matches 1 at @e[type=area_effect_cloud,tag=center,limit=1,sort=nearest] run data merge block ~ ~-2 ~ {RecordItem:{id:"minecraft:music_disc_13",Count:1b,tag:{speed:20,name:"The first",pieces:{hor:2,ver:0,rl:0,rr:0,dl:0,dr:0,stop:0},blocks:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,1,1,1,1,1,0,0,0,0,1,1,1,1,1,0,0,0,0,1,1,1,1,1,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}}}
-execute if score @s level matches 2 at @e[type=area_effect_cloud,tag=center,limit=1,sort=nearest] run data merge block ~ ~-2 ~ {RecordItem:{id:"minecraft:music_disc_13",Count:1b,tag:{speed:20,name:"The second",pieces:{hor:2,ver:2,rl:0,rr:0,dl:0,dr:0,stop:0},blocks:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,1,1,1,1,1,0,0,0,0,1,1,1,1,1,0,0,0,0,1,1,1,1,1,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}}}
+execute if score @s mode matches 1 run function n:game/load/negentropy
+execute at @e[type=area_effect_cloud,tag=center,limit=1,sort=nearest] run data modify block ~ ~-2 ~ RecordItem.tag set from storage n:tmp level
 
 execute as @e[type=area_effect_cloud,tag=center,limit=1,sort=nearest] at @s run function n:level/load/start

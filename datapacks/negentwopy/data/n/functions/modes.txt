@@ -1,0 +1,8 @@
+-1: "creative" build mode
+
+0: main menu
+1: classic Negentropy
+2: NegenTWOpy
+3: Community Maps
+
+99: load your own maps

@@ -4,4 +4,4 @@ execute store result entity @s Pos[2] double 1 run scoreboard players get @p[tag
 
 execute at @s run tp @s ~.5 ~ ~.5
 
-execute at @s run tp @p[tag=move] ~ ~2 ~
+execute at @s run tp @p[tag=move] ~ ~2 ~ 0 0
